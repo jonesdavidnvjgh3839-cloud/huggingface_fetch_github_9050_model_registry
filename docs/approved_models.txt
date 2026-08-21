@@ -1,0 +1,8 @@
+# Acme AI - Approved model repository IDs for production use
+# One repository ID per line. Only models listed here are certified for production.
+cardiffnlp/twitter-roberta-base-sentiment
+sshleifer/distilbart-cnn-12-6
+dbmdz/bert-large-cased-finetuned-conll03-english
+openai-community/gpt2
+sentence-transformers/all-MiniLM-L6-v2
+openai/whisper-base
