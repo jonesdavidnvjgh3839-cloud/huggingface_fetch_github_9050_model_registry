@@ -1,45 +1,45 @@
-registry: Acme AI Model Registry
-version: '1.0'
-updated: '2026-08-21'
-owner: platform-ml
+registry: "Acme AI Model Registry"
+version: "1.0"
+updated: "2026-08-21"
+owner: "platform-ml"
 models:
-- id: mod-001
-  name: sentiment-analyzer
-  category: text-classification
-  repo_id: cardiffnlp/twitter-roberta-base-sentiment
-  status: active
-- id: mod-002
-  name: article-summarizer
-  category: summarization
-  repo_id: sshleifer/distilbart-cnn-12-6
-  status: active
-- id: mod-003
-  name: entity-tagger
-  category: token-classification
-  repo_id: dbmdz/bert-large-cased-finetuned-conll03-english
-  status: active
-- id: mod-004
-  name: text-generator
-  category: text-generation
-  repo_id: openai-community/gpt2
-  status: active
-- id: mod-005
-  name: legacy-generator
-  category: text-generation
-  repo_id: textgen-community/legacy-gpt
-  status: invalid
-- id: mod-006
-  name: embedder
-  category: sentence-similarity
-  repo_id: sentence-transformers/all-MiniLM-L6-v2
-  status: active
-- id: mod-007
-  name: speech-to-text
-  category: automatic-speech-recognition
-  repo_id: openai/whisper-base
-  status: active
-- id: mod-008
-  name: candidate-model
-  category: fill-mask
-  repo_id: google/electra-base-discriminator
-  status: review
+  - id: "mod-001"
+    name: "sentiment-analyzer"
+    category: "text-classification"
+    repo_id: "cardiffnlp/twitter-roberta-base-sentiment"
+    status: "active"
+  - id: "mod-002"
+    name: "article-summarizer"
+    category: "summarization"
+    repo_id: "facebook/bart-large-cnn"
+    status: "active"
+  - id: "mod-003"
+    name: "entity-tagger"
+    category: "token-classification"
+    repo_id: "dslim/bert-base-NER"
+    status: "active"
+  - id: "mod-004"
+    name: "text-generator"
+    category: "text-generation"
+    repo_id: "openai-community/gpt2"
+    status: "active"
+  - id: "mod-005"
+    name: "legacy-generator"
+    category: "text-generation"
+    repo_id: "textgen-community/legacy-gpt"
+    status: "active"
+  - id: "mod-006"
+    name: "embedder"
+    category: "sentence-similarity"
+    repo_id: "sentence-transformers/all-MiniLM-L6-v2"
+    status: "active"
+  - id: "mod-007"
+    name: "speech-to-text"
+    category: "automatic-speech-recognition"
+    repo_id: "openai/whisper-base"
+    status: "active"
+  - id: "mod-008"
+    name: "candidate-model"
+    category: "fill-mask"
+    repo_id: "google/electra-base-discriminator"
+    status: "active"
