@@ -1,0 +1,6 @@
+# Acme AI - Deprecated / retired model repository IDs
+# Format: <deprecated_repo_id> -> <recommended_approved_replacement>
+# When a repo_id below appears in the registry, replace it with the recommended replacement.
+facebook/bart-large-cnn -> sshleifer/distilbart-cnn-12-6
+dslim/bert-base-NER -> dbmdz/bert-large-cased-finetuned-conll03-english
+albert/albert-base-v2 -> openai-community/gpt2
